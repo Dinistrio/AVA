@@ -7,8 +7,8 @@ public final class AVA {
     }
 
     public static void systemDeConnexion() { // Ensemble des manoeuvres nécessaires à la connexion
-        menu.messageMenuAffichage(1);
-        menu.messageMenuAffichage(2);
-        baseDeDonneeConnexion.connexionALaBDD();
+        Autre_Menu.messageMenuAffichage(1);
+        Autre_Menu.messageMenuAffichage(2);
+        Login_BDD_Connexion.connexionALaBDD();
     }
 }
